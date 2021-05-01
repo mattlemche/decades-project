@@ -1,0 +1,25 @@
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #cbcbcb;
+  font-size: 6vh;
+  text-align: center;
+  color: #fff;
+}
+
+.section {
+  max-width: 1080px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.clock {
+  &__element {
+    display: block;
+  }
+}
