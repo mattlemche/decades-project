@@ -1,4 +1,5 @@
 import React from 'react';
+import './DecadesClock.scss';
 import {useState, useEffect} from 'react';
 
 export default function DecadesClock() {
@@ -36,24 +37,34 @@ export default function DecadesClock() {
     const timerComponents = [];
 
     Object.keys(timeLeft).forEach((interval, i) => {
-    if (!timeLeft[interval]) {
-        return;
-    }
 
     timerComponents.push(
-        <span key={i} className="clock__element">
-        {timeLeft[interval]} {interval}{" "}
-        </span>
+        <p key={i} className="clock__element">
+            <span className="clock__time-left">
+            {timeLeft[interval]}
+            </span>
+            <span className="clock__interval">
+            {interval.toUpperCase()}
+            </span>
+        </p>
     );
     });    
     
     // console.log("Clock is running", calculateTimeLeft());
 
     return (
-        <div>
-            <p className="clock">{timerComponents.length ? timerComponents : <span className="true">Today is the day!</span> }</p>
-            
+        
+        <div className="clock">
+            {
+                timerComponents.length ?
+                timerComponents :
+                    <span className="true">
+                        Today is the day!
+                    </span> 
+            }
         </div>
+            
+       
     );
 };
 

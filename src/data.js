@@ -2,11 +2,11 @@ export const profiles = [
     {
         firstName: 'Graeme',
         lastName: 'Bunton',
-        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        bio: 'For over 20 years Graeme Bunton has been striving to make the world a better place through technology and the Internet.  Graeme was a founding member of the Citizen Lab, one of the world’s foremost centers for research into internet censorship and surveillance.  Since then he’s worked with startups, in eHealth for the Ontario Government, and for Internet infrastructure company Tucows.  He has played a key role in numerous efforts to address global internet governance issues, including managing the impact of the GDPR on the DNS, the transition of the IANA functions, and protecting registrant privacy. He served as elected chair of the ICANN Registrar Stakeholder Group for four years, leading it through some of ICANN’s most contentious and difficult times. He is currently the inaugural director of the DNS Abuse Institute, working to reduce online harms.',
         socials: {
-        twitter: '',
-        instagram: '',
-        website: '',
+        twitter: 'https://twitter.com/graemebunton',
+        instagram: 'https://www.instagram.com/instagraemebunton/',
+        website: 'https://graemebunton.com/',
         other: '',
         }
         },
@@ -24,7 +24,7 @@ export const profiles = [
         {
         firstName: 'Matt',
         lastName: 'Lemche',
-        bio:'',
+        bio:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         socials: {
         twitter: 'https://twitter.com/MattLemche',
         instagram: '',
@@ -60,7 +60,7 @@ export const profiles = [
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         socials: {
         twitter: '',
-        instagram: '',
+        instagram: 'https://www.instagram.com/Redcrumbs/',
         website: '',
         other: '',
         }

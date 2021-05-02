@@ -1,0 +1,21 @@
+// ===========================\\
+//  #Decades Clock
+//============================\\
+
+.clock {
+    width: 100%;
+    font-size: 1rem;
+
+    &__element {
+      display: block;
+      width: fit-content;
+      margin: 0 auto;
+    }
+
+    &__time-left {
+        display: inline-block;
+        width: 2rem;
+        margin-right: 0.5rem;
+        text-align: right;
+    }
+  }

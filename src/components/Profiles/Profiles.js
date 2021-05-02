@@ -1,5 +1,8 @@
 import React from 'react';
 import { profiles } from '../../data';
+import { ReactComponent as Twitter } from '../../assets/twitter-brands.svg';
+import { ReactComponent as Instagram } from '../../assets/instagram-brands.svg';
+import { ReactComponent as Web } from '../../assets/globe-europe-regular.svg';
 
 function Profiles() {
     return (
@@ -18,9 +21,36 @@ function Profiles() {
                   <p>
                     {profile.lastName}
                   </p>
-                  <p>
+                  {/* <p>
                     {profile.bio}
-                  </p>
+                  </p> */}
+                  <div className="socials">
+                      {
+                        profile.socials.twitter ?
+                        <a href={profile.socials.twitter} 
+                        className="socials__link">
+                        <Twitter className="socials__icon"/>
+                        </a> :
+                        ''
+                      }
+                      {
+                        profile.socials.instagram ?
+                        <a href={profile.socials.instagram} 
+                        className="socials__link">
+                        <Instagram className="socials__icon"/>
+                        </a> :
+                        ''
+                      }
+                      {
+                        profile.socials.website ?
+                        <a href={profile.socials.website} 
+                        className="socials__link">
+                        <Web className="socials__icon"/>
+                        </a> :
+                        ''
+                      }
+                                    
+                  </div>
                 </div>
               );
             })

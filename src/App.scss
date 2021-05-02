@@ -1,3 +1,7 @@
+@use './partials/typography' ;
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
+
 // ===========================\\
 //  #Global Styles
 //============================\\
@@ -19,27 +23,79 @@ html {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #cbcbcb;
-  font-size: 6vh;
-  text-align: center;
-  color: #fff;
+  background-color: $color-lichen;
+  
+
+  &--alt {
+    display: block;
+    min-height: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    
+  }
 }
 
 .section {
-  max-width: 1080px;
+  max-width: $content-max-width;
   // width: 100%;
   padding: 2rem;
+  margin: 0 auto;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @include large-mobile {
+    flex-direction: row;
+}
+}
+
+.column {
+  flex: 1;
+  min-width: 10rem;
+  margin-bottom: 0.75rem;
+
+  @include large-mobile {
+    padding: 0 0.75rem;
+}
+}
+
+.heading-1 {
+  font-size: 2rem;
+}
+
+.heading-2 {
+  font-size: 1.75rem;
+}
+
+.heading-3 {
+  font-size: 1.5rem;
+  color: $color-ink;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0 0;
+
+  &__link {
+    display: block;
+    color: inherit;
+    fill: $color-lichen;
+  }
+
+  &__icon {
+    width: 1.25rem;
+    margin-right: 0.5rem;
+    fill: $color-lichen;
+  }
 }
 
 .footer {
-  max-width: 1080px;
   padding: 2rem;
   background-color: #cbcbcb;
   color: #fff;
 }
 
-.clock {
-  &__element {
-    display: block;
-  }
-}

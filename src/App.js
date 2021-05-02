@@ -1,6 +1,6 @@
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import MainHeader from './components/DecadesClock/DecadesClock';
+import MainHeader from './components/MainHeader/MainHeader';
 import About from './components/About/About';
 import Video from './components/Video/Video';
 import Profiles from './components/Profiles/Profiles';
