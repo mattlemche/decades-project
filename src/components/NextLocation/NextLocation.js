@@ -15,7 +15,7 @@ function NextLocation() {
 
                 </div>
                 <p className="section__paragraph section__paragraph--right">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <span className="feature">The Decades Project–Episode Two: Bukit Lambir, revisits the lives of Chris Redman and Matt Lemche 10 years later,</span> as they travel to meet on the other side of the world. This installment investigates what it means to have a lifelong friend, and what challenges we are willing to overcome in order to maintain those sustained connections. Through interviews with several other longtime friends both in North America, and in final destination Malaysian Borneo, Christopher and Matt ask the question, “why do we keep the friends we keep?”. Spanning over 20 years, this epic project looks at the unique bonds that hold us together across time and space.
                 </p>
                     
             </div>

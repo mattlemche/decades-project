@@ -5,10 +5,11 @@ import {ReactComponent as TattooOne} from '../../assets/tattoo.svg';
 function About() {
     return (
         <section className="section">
-          <h3 className="heading-3">What is the Decades Project?</h3>
+          {/* <h3 className="heading-3">What is the Decades Project?</h3> */}
           <div className="section__content">
             <p className="section__paragraph section__paragraph--left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <span className="heading-3">What is the Decades Project?</span>
+              <span className="feature">The Decades Project is a life-long project centering friendship and the creation of personal milestones.</span> In 2002, Chris Redman and Matt Lemche agreed to meet up 10 years in the future to reflect on their lives up until that point. They tattooed the pact onto their bodies to lock in their destiny. On May 3, 2012, the pair met up in Northern Iceland as agreed. They were accompanied by 4 long-time friends and companions who had been witness to the promise from its inception. The circle continues to expand with every decade, with the hope of reminding the world about the joy of enduring friendship.
 
             </p>
             <div className="stacked stacked--left">
