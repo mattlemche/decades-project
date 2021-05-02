@@ -30,18 +30,34 @@ html {
   padding: 0 1rem;
   background-color: $color-lichen;
   
+  &__content {
+    max-width: $content-max-width;
+    margin: 0 auto;
+  }
+
+  &__subtitle {
+    font-family: 'Raleway', 'Helvetica', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+  }
 
   &--alt {
     display: block;
     min-height: 2rem;
-    padding: 1rem;
-    background-color: $color-ink;
+    padding: 2rem;
+    background-color: $color-cherry;
     
   }
 }
 
 .main {
   margin: 2rem 0 8rem;
+
+  &--butter {
+    margin: 0;
+    padding: 2rem 0 6rem;
+    background-color: $color-butter;
+  }
 }
 
 .section {
@@ -108,6 +124,11 @@ html {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+  text-decoration: none;
+
+  &--alt {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .heading-2 {
@@ -150,6 +171,7 @@ html {
 
 .inline-link {
   display: inline-block;
+  text-decoration: none;
 }
 
 .video {
@@ -236,6 +258,13 @@ html {
     margin-right: 0.5rem;
     fill: $color-ink;
   }
+}
+
+.supporter {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-shadow: 0.10rem 0.10rem rgba(0, 0, 0, 0.2);
+  color: #fff;
 }
 
 .footer {

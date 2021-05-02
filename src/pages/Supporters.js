@@ -1,14 +1,16 @@
 import React from 'react';
 import AltHeader from '../components/AltHeader/AltHeader';
 import SupporterList from '../components/SupporterList/SupporterList';
+import Footer from '../components/Footer/Footer';
 
 function supporters() {
     return (
         <>
            <AltHeader /> 
-            <main className="main">
+            <main className="main main--butter">
                 <SupporterList />
             </main>
+            <Footer/>
         </>
     );
 }
