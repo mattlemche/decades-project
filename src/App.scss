@@ -35,11 +35,41 @@ html {
   }
 }
 
+.main {
+  margin: 2rem 0;
+}
+
 .section {
   max-width: $content-max-width;
   // width: 100%;
   padding: 2rem;
   margin: 0 auto;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    @include large-mobile {
+      flex-direction: row;
+  }
+  }
+
+  &__paragraph {
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    &--left {
+      flex-basis: 60%;
+      margin-right: 5rem;
+    }
+
+    &--right {
+      flex-basis: 45%;
+      margin-left: 2rem;
+    }
+  }
 }
 
 .columns {
@@ -71,8 +101,78 @@ html {
 }
 
 .heading-3 {
+  position: relative;
+  z-index: 10;
   font-size: 1.5rem;
   color: $color-ink;
+  margin-bottom: 1.5rem;
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   bottom: 0;
+  //   left: -1rem;
+  //   z-index: -1;
+  //   height: 120%;
+  //   width: 100%;
+  //   margin: auto;
+  //   background-color: $color-cherry;
+  //   transform: skew(-6deg, 1deg)
+  // }
+}
+
+.paragraph {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.inline-link {
+  display: inline-block;
+}
+
+.video {
+  position: relative;
+  padding: 55% 0 0 0;
+
+  &__i-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.stacked {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  &--left {
+    flex-basis: 40%;
+  }
+
+  &--right {
+    flex-basis: 55%;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+  
+  &__svg {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0;
+    right: 0;
+    max-width: 80%;
+    width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    fill: $color-butter;
+  }
 }
 
 .socials {
