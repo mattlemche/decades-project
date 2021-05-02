@@ -15,13 +15,14 @@ function Profiles() {
             profiles.map((profile, i) => {
               return (
                 <div key={i} className="column">
-                  <p>
+                    <img src={profile.image} alt={profile.alt} className="profile__image"/>
+                  <p className="profile__first-name">
                     {profile.firstName}
                   </p>
-                  <p>
+                  <p className="profile__last-name">
                     {profile.lastName}
                   </p>
-                  {/* <p>
+                  {/* <p className="profile__bio">
                     {profile.bio}
                   </p> */}
                   <div className="socials">

@@ -1,7 +1,16 @@
+import marg from './assets/marg.png';
+import chris from './assets/chris.png';
+import matt from './assets/matt.png';
+import nadia from './assets/nadia.png';
+import graeme from './assets/graeme.png';
+import trina from './assets/trina.png';
+
 export const profiles = [
     {
         firstName: 'Graeme',
         lastName: 'Bunton',
+        image: graeme,
+        alt: 'Photo of Graeme at Laufas Church.',
         bio: 'For over 20 years Graeme Bunton has been striving to make the world a better place through technology and the Internet.  Graeme was a founding member of the Citizen Lab, one of the world’s foremost centers for research into internet censorship and surveillance.  Since then he’s worked with startups, in eHealth for the Ontario Government, and for Internet infrastructure company Tucows.  He has played a key role in numerous efforts to address global internet governance issues, including managing the impact of the GDPR on the DNS, the transition of the IANA functions, and protecting registrant privacy. He served as elected chair of the ICANN Registrar Stakeholder Group for four years, leading it through some of ICANN’s most contentious and difficult times. He is currently the inaugural director of the DNS Abuse Institute, working to reduce online harms.',
         socials: {
         twitter: 'https://twitter.com/graemebunton',
@@ -13,6 +22,8 @@ export const profiles = [
         {
         firstName: 'Trina',
         lastName: 'Hogg',
+        image: trina,
+        alt: 'Photo of Trina at Laufas Church.',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         socials: {
         twitter: '',
@@ -24,6 +35,8 @@ export const profiles = [
         {
         firstName: 'Matt',
         lastName: 'Lemche',
+        image: matt,
+        alt: 'Photo of Matt at Laufas Church.',
         bio:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         socials: {
         twitter: 'https://twitter.com/MattLemche',
@@ -35,6 +48,8 @@ export const profiles = [
         {
         firstName: 'Nadia',
         lastName: 'Nascimento',
+        image: nadia,
+        alt: 'Photo of Nadia at Laufas Church.',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         socials: {
         twitter: '',
@@ -46,6 +61,8 @@ export const profiles = [
         {
         firstName: 'Marguerite',
         lastName: 'Moreau',
+        image: marg,
+        alt: 'Photo of Marguerite at Laufas Church.',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         socials: {
         twitter: '',
@@ -57,6 +74,8 @@ export const profiles = [
         {
         firstName: 'Chris',
         lastName: 'Redman',
+        image: chris,
+        alt: 'Photo of Chris at Laufas Church.',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         socials: {
         twitter: '',
