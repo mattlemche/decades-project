@@ -1,5 +1,6 @@
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import MainHeader from './components/MainHeader/MainHeader';
 import About from './components/About/About';
 import Video from './components/Video/Video';
@@ -11,6 +12,7 @@ import Supporters from './pages/Supporters';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
       <Route path='/' exact render={(routeprops) => {
             return (
