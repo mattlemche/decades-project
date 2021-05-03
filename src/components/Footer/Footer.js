@@ -13,7 +13,7 @@ function Footer() {
                  <Twitter className="footer__social"/> @decadesproject
                 </a>
 
-                <a href="mailto:matt@decadesproject.com" className="footer__contact" target="_blank" rel="noreferrer">
+                <a href="mailto:mattlemche@gmail.com" className="footer__contact" target="_blank" rel="noreferrer">
                  <Email className="footer__social"/> info@decadesproject.com
                 </a>
                 
