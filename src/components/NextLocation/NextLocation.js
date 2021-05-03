@@ -8,7 +8,7 @@ function NextLocation() {
             <h3 className="heading-3">
             Where to Next?
             </h3>
-            <div className="section__content">
+            <div id="next-location" className="section__content">
                 <div className="stacked stacked--right">
                         <img src={bukitLambir} alt="View of mountains in Malaysian Borneo" className="stacked__image stacked__image--landscape"/>
                         <TattooTwo className="stacked__svg stacked__svg--landscape"/>
