@@ -50,11 +50,11 @@ export const profiles = [
         lastName: 'Nascimento',
         image: nadia,
         alt: 'Photo of Nadia at Laufas Church.',
-        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        bio: 'Nadia Nascimento is a global marketer, cultural innovator and experience designer whose work lies at the intersection of media, art and activism. Her strategies in digital and experiential have focused on top-tier brands and impact-based ventures from (RED) to VIACOM, the BBC to the United Nations Foundations. Her background in tech, strategy, and culture has put her at the cutting edge of experience design, designing key moments at events like TED, Sundance and Summit Series. She is the Co-Founder of ARTNOIR, a creative organization offering an alternative to the traditional art world narrative promoting bold acts of creative storytelling for communities of opportunity + artists of colour.',
         socials: {
-        twitter: '',
-        instagram: '',
-        website: '',
+        twitter: 'https://twitter.com/nalei',
+        instagram: 'https://www.instagram.com/artnoirco',
+        website: 'https://www.artnoir.co',
         other: '',
         }
         },

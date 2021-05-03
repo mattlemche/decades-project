@@ -29,7 +29,7 @@ function Profiles() {
                       {
                         profile.socials.twitter ?
                         <a href={profile.socials.twitter} 
-                        className="socials__link">
+                        className="socials__link" target="_blank" rel="noreferrer">
                         <Twitter className="socials__icon"/>
                         </a> :
                         ''
@@ -37,7 +37,7 @@ function Profiles() {
                       {
                         profile.socials.instagram ?
                         <a href={profile.socials.instagram} 
-                        className="socials__link">
+                        className="socials__link" target="_blank" rel="noreferrer">
                         <Instagram className="socials__icon"/>
                         </a> :
                         ''
@@ -45,7 +45,7 @@ function Profiles() {
                       {
                         profile.socials.website ?
                         <a href={profile.socials.website} 
-                        className="socials__link">
+                        className="socials__link" target="_blank" rel="noreferrer">
                         <Web className="socials__icon"/>
                         </a> :
                         ''
