@@ -184,7 +184,10 @@ html {
 
 .inline-link {
   display: inline-block;
-  text-decoration: none;
+
+  &--alt {
+    text-decoration: none;
+  }
 }
 
 .video {
