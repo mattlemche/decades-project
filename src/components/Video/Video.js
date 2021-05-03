@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Video() {
     return (
-        <section className="section">
+        <section id="episode-one" className="section">
           <h3 className="heading-3">
               Watch Episode One
           </h3>
