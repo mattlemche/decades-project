@@ -41,7 +41,7 @@ export const profiles = [
         socials: {
         twitter: 'https://twitter.com/MattLemche',
         instagram: '',
-        website: 'https://mattlemche.com',
+        website: 'https://design.mattlemche.com/',
         other: '',
         }
         },
