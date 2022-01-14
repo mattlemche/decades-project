@@ -19,7 +19,13 @@ function Footer() {
                 
 
             </div>
-            
+            <div className="footer__credit">
+                <a className="footer__link" href="https://design.mattlemche.com"  target="_blank" rel="noreferrer">
+                    Website design and development by ML Designs
+                </a>
+
+            </div>
+
       </footer>
     );
 }

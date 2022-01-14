@@ -1,6 +1,6 @@
-@use './partials/typography' ;
-@use './partials/variables' as *;
-@use './partials/mixins' as *;
+@use "./partials/typography";
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
 
 // ===========================\\
 //  #Global Styles
@@ -11,14 +11,16 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 .body {
-  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-family: "Open Sans", "Helvetica", sans-serif;
 }
 
 .header {
@@ -29,14 +31,14 @@ html {
   min-height: 100vh;
   padding: 0 1rem;
   background-color: $color-lichen;
-  
+
   &__content {
     max-width: $content-max-width;
     margin: 0 auto;
   }
 
   &__subtitle {
-    font-family: 'Raleway', 'Helvetica', sans-serif;
+    font-family: "Raleway", "Helvetica", sans-serif;
     font-size: 1.5rem;
     color: #fff;
   }
@@ -46,7 +48,6 @@ html {
     min-height: 2rem;
     padding: 2rem;
     background-color: $color-cherry;
-    
   }
 }
 
@@ -74,7 +75,7 @@ html {
 
     @include large-mobile {
       flex-direction: row;
-  }
+    }
   }
 
   &__paragraph {
@@ -92,7 +93,6 @@ html {
 
     &--right {
       flex-basis: 45%;
-      
 
       @include large-mobile {
         margin-left: 2rem;
@@ -108,7 +108,7 @@ html {
 
   @include large-mobile {
     flex-direction: row;
-}
+  }
 }
 
 .column {
@@ -118,12 +118,12 @@ html {
 
   @include large-mobile {
     padding: 0 0.75rem;
-}
+  }
 }
 
 .heading-1 {
   margin-bottom: 2rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
@@ -144,23 +144,23 @@ html {
   position: relative;
   z-index: 10;
   display: block;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 2rem;
   font-weight: 100;
   line-height: 2.25rem;
   color: $color-ink;
-  margin-bottom: 1.5rem;  
+  margin-bottom: 1.5rem;
 }
 
 .heading-4 {
   margin-bottom: 1rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 1.5rem;
 }
 
 .heading-5 {
   margin-bottom: 0.5rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 100;
   color: #fff;
 }
@@ -183,7 +183,6 @@ html {
 }
 
 .inline-link {
-
   &--alt {
     text-decoration: none;
   }
@@ -203,27 +202,24 @@ html {
 }
 
 .profile {
-  
-
   &__image {
     width: 4rem;
     margin-bottom: 1rem;
   }
 
   &__first-name {
-    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: $color-cherry;
   }
 
   &__last-name {
-    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     color: $color-cherry;
   }
-
 }
 
 .stacked {
@@ -251,7 +247,7 @@ html {
       }
     }
   }
-  
+
   &__svg {
     position: absolute;
     bottom: 0.5rem;
@@ -284,9 +280,9 @@ html {
 }
 
 .supporter {
-  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-shadow: 0.10rem 0.10rem rgba(0, 0, 0, 0.2);
+  text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
   color: #fff;
 }
 
@@ -314,5 +310,21 @@ html {
     margin-bottom: 0.5rem;
     color: #fff;
   }
-}
 
+  &__credit {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  &__link {
+    display: block;
+    font-size: 0.75rem;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
