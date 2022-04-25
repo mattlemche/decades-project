@@ -6,8 +6,10 @@ import About from './components/About/About';
 import Video from './components/Video/Video';
 import Profiles from './components/Profiles/Profiles';
 import NextLocation from './components/NextLocation/NextLocation';
+import NextLocationAlt from './components/NextLocationAlt/NextLocationAlt';
 import Footer from './components/Footer/Footer';
 import Supporters from './pages/Supporters';
+import Donation from './components/Donation/Donation';
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
                     <Video />
                     <Profiles />
                     <NextLocation />
+                    <NextLocationAlt />
+                    <Donation/>
                   </main>
-                  <Footer />
+                  <Footer /> 
               </>
             )
           }} />

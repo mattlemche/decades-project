@@ -1,5 +1,4 @@
 import React from 'react';
-import './SupporterList.scss';
 import { decadesSupporters } from '../../data';
 
 function SupporterList() {

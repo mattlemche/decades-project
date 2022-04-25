@@ -51,6 +51,18 @@ html {
   }
 }
 
+.tempheader {
+  @extend .header;
+  justify-content: flex-end;
+  min-height: 85vh;
+  background-color: #fff;
+  background-image: url("/assets/Decades Project 2022 Promo Still.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
 .main {
   margin: 2rem 0 8rem;
 
@@ -76,6 +88,18 @@ html {
     @include large-mobile {
       flex-direction: row;
     }
+  }
+  &__inner {
+    border: 2px $color-ink solid;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  &--cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   &__paragraph {
@@ -134,6 +158,10 @@ html {
     margin-bottom: 0.5rem;
     text-align: left;
   }
+
+  &--temp {
+    margin-bottom: 5rem;;
+  }
 }
 
 .heading-2 {
@@ -182,10 +210,38 @@ html {
   text-align: left;
 }
 
+.superscript {
+  position: relative;
+  top: -0.5rem;
+  font-size: 50%;
+}
+
+.type-correct {
+  position: relative;
+  top: -0.30rem;
+}
+
 .inline-link {
   &--alt {
     text-decoration: none;
   }
+}
+
+.button {
+  display: inline-block;
+  background-color: $color-cherry;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: rgba($color-cherry, 0.85);
+  }
+
 }
 
 .video {
@@ -280,10 +336,13 @@ html {
 }
 
 .supporter {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: $color-lichen;
+
 }
 
 .footer {

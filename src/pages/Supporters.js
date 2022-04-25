@@ -7,7 +7,7 @@ function supporters() {
     return (
         <>
            <AltHeader /> 
-            <main className="main main--butter">
+            <main className="main">
                 <SupporterList />
             </main>
             <Footer/>
