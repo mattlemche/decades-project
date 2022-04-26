@@ -204,11 +204,16 @@ html {
 }
 
 .fine-print {
-  display: inline-block;
+  display: block;
   margin-top: 1rem;
   font-size: 0.75rem;
   text-align: left;
+
+  &--center {
+    text-align: center;
+  }
 }
+
 
 .superscript {
   position: relative;
@@ -246,7 +251,7 @@ html {
 
 .video {
   position: relative;
-  padding: 55% 0 0 0;
+  padding: 56% 0 0 0;
 
   &__i-frame {
     position: absolute;
