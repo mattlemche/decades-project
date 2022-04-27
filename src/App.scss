@@ -211,6 +211,10 @@ html {
 
   &--center {
     text-align: center;
+
+    &:last-child {
+      margin-top: 0.25rem;
+    }
   }
 }
 
