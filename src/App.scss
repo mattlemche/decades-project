@@ -62,6 +62,11 @@ html {
   
 }
 
+.new-header {
+  @extend .tempheader;
+  background-image: url("assets/graeme.png");
+}
+
 
 .main {
   margin: 2rem 0 8rem;
@@ -228,6 +233,10 @@ html {
 .type-correct {
   position: relative;
   top: -0.30rem;
+}
+
+.block-type {
+  display: block;
 }
 
 .inline-link {

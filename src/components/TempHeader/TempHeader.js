@@ -10,9 +10,9 @@ function MainHeader() {
                    Decades Project
                </h1>
                */}
-               12:00 PM Sharp | May <span className="type-correct">
+               May <span className="type-correct">
                    3<span className="superscript">rd</span>
-                   </span>, 2022
+                   </span>, 2022 <span className="block-type">12:00 PM Sharp</span>
            </h1>
         </header>
      
