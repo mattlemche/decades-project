@@ -18,10 +18,10 @@ function App() {
   const currentMonth = new Date().getMonth()
   const currentHour = new Date().getHours();
 
-  console.log({currentDay, currentMonth, currentHour});
+  
 
   const headerDisplay = () => {
-    if (currentMonth === 3 && currentDay === 28 && currentHour > 0) {
+    if (currentMonth === 4 && currentDay === 3 && currentHour > 0) {
       return (
         <TempHeader />
       );
