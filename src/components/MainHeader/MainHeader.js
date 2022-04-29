@@ -11,6 +11,16 @@ function MainHeader() {
                 Time to next decade:
             </p>
             <DecadesClock />
+            <div className="furniture furniture--3"></div>
+            <a href="https://www.indiegogo.com/projects/decades-chapter-ii/x/492696#/" className="button button--white" target="_blank" rel="noreferrer">Click here to donate</a>
+            <div className="arrow">
+                {/* <p className="arrow__text fine-print">See more about the project below.</p> */}
+                <a href="#about" className="arrow__glyph">
+                    &#62;
+
+                </a>
+            </div>
+            
         </header>
      
     );

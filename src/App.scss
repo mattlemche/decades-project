@@ -130,6 +130,12 @@ html {
   }
 }
 
+.furniture {
+  &--3 {
+    height: 3rem;
+  }
+}
+
 .columns {
   display: flex;
   flex-direction: column;
@@ -245,19 +251,50 @@ html {
   }
 }
 
+.arrow {
+  position: absolute;
+  bottom: 3rem;
+  color: #fff;
+
+  &__text {
+    padding-bottom: 1rem;
+  }
+
+  &__glyph {
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(5, 3) rotate(90deg) ;
+  }
+}
+
 .button {
   display: inline-block;
-  background-color: $color-cherry;
   padding: 1rem 2rem;
   border-radius: 5px;
   font-size: 1.25rem;
-  color: white;
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.2s;
 
-  &:hover {
-    background-color: rgba($color-cherry, 0.85);
+  &--white {
+    background-color: white;
+    color: $color-lichen;
+
+    &:hover {
+      background-color: rgba(white, 0.85);
+    }
+  }
+
+  &--cherry {
+    background-color: $color-cherry;
+    color: white;
+
+    &:hover {
+      background-color: rgba($color-cherry, 0.85);
+    }
   }
 
 }
