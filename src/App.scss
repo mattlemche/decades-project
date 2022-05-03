@@ -138,7 +138,7 @@ html {
 
 .columns {
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   flex-wrap: wrap;
 
   @include large-mobile {
@@ -148,7 +148,7 @@ html {
 
 .column {
   flex: 1;
-  min-width: 10rem;
+  min-width: 8rem;
   margin-bottom: 0.75rem;
 
   @include large-mobile {
