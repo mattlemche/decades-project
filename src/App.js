@@ -21,7 +21,7 @@ function App() {
   
 
   const headerDisplay = () => {
-    if (currentMonth === 4 && currentDay === 3 && currentHour > 0) {
+    if (currentMonth === 4 && currentDay === 3 && currentHour >= 0) {
       return (
         <TempHeader />
       );
@@ -32,6 +32,7 @@ function App() {
     }
   };
 
+  
   return (
     <Router>
       <ScrollToTop />
