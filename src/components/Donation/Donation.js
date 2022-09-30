@@ -7,7 +7,7 @@ function Donation() {
                 <p className="heading-3">
                     Want to help us complete this next chapter?
                 </p>
-                <a href="https://www.indiegogo.com/projects/decades-chapter-ii/x/492696#/" className="button button--cherry" target="_blank" rel="noreferrer">
+                <a href="https://www.buymeacoffee.com/decades" className="button button--cherry" target="_blank" rel="noreferrer">
                     CLick here to donate
                 </a>
             </div>

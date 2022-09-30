@@ -12,7 +12,7 @@ function MainHeader() {
             </p>
             <DecadesClock />
             <div className="furniture furniture--3"></div>
-            <a href="https://www.indiegogo.com/projects/decades-chapter-ii/x/492696#/" className="button button--white" target="_blank" rel="noreferrer">Click here to donate</a>
+            <a href="https://www.buymeacoffee.com/decades" className="button button--white" target="_blank" rel="noreferrer">Click here to donate</a>
             {/* <div className="arrow">
                 
                 <a href="#about" className="arrow__glyph">
